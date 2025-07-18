@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson Loading Test</title>
+</head>
+<body>
+    <h1>Lesson Loading Test</h1>
+    <button onclick="testLessonLoading()">Test PHP Basic Lesson</button>
+    <div id="testArea" style="border: 1px solid #ccc; padding: 20px; margin: 20px 0; min-height: 200px;"></div>
+
+    <script>
+        function testLessonLoading() {
+            const testArea = document.getElementById('testArea');
+            testArea.innerHTML = '<p>Loading lesson...</p>';
+            
+            fetch('lessons/php_basic.php')
+                .then(response => {
+                    console.log('Response status:', response.status);
+                    if (!response.ok) {
+                        throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                    }
+                    return response.text();
+                })
+                .then(html => {
+                    console.log('Lesson loaded successfully');
+                    testArea.innerHTML = html;
+                    
+                    // Execute any scripts in the loaded HTML
+                    const scripts = testArea.querySelectorAll('script');
+                    scripts.forEach(script => {
+                        const newScript = document.createElement('script');
+                        if (script.src) {
+                            newScript.src = script.src;
+                        } else {
+                            newScript.textContent = script.textContent;
+                        }
+                        document.body.appendChild(newScript);
+                        document.body.removeChild(newScript);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error loading lesson:', error);
+                    testArea.innerHTML = `<p style="color: red;">Error loading lesson: ${error.message}</p>`;
+                });
+        }
+    </script>
+</body>
+</html> 

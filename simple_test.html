@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Test</title>
+</head>
+<body>
+    <h1>Simple Session Test</h1>
+    
+    <h2>Test 1: Check Session</h2>
+    <button onclick="testSession()">Test Session</button>
+    <div id="session-result"></div>
+    
+    <h2>Test 2: Check Database</h2>
+    <button onclick="testDatabase()">Test Database</button>
+    <div id="db-result"></div>
+    
+    <h2>Test 3: Test Session Creation</h2>
+    <button onclick="testSessionCreation()">Test Session Creation</button>
+    <div id="creation-result"></div>
+    
+    <script>
+        function testSession() {
+            fetch('test_session_simple.php')
+            .then(response => response.json())
+            .then(result => {
+                document.getElementById('session-result').innerHTML = 
+                    '<pre>' + JSON.stringify(result, null, 2) + '</pre>';
+            })
+            .catch(error => {
+                document.getElementById('session-result').innerHTML = 
+                    'Error: ' + error.message;
+            });
+        }
+        
+        function testDatabase() {
+            fetch('test_db.php')
+            .then(response => response.text())
+            .then(result => {
+                document.getElementById('db-result').innerHTML = result;
+            })
+            .catch(error => {
+                document.getElementById('db-result').innerHTML = 
+                    'Error: ' + error.message;
+            });
+        }
+        
+        function testSessionCreation() {
+            fetch('create_session_message.php', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: 'receiver_id=1'
+            })
+            .then(response => response.json())
+            .then(result => {
+                document.getElementById('creation-result').innerHTML = 
+                    '<pre>' + JSON.stringify(result, null, 2) + '</pre>';
+            })
+            .catch(error => {
+                document.getElementById('creation-result').innerHTML = 
+                    'Error: ' + error.message;
+            });
+        }
+    </script>
+</body>
+</html> 

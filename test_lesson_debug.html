@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lesson Test</title>
+</head>
+<body>
+    <h2>Java Intermediate Lesson</h2>
+    <p>Welcome! Click a topic to read:</p>
+    <div id="javaTopics">
+        <button onclick="loadJavaLessonTopic('oop')" style="display:block; width:100%; margin:5px 0; padding:10px; background:#1890ff; color:white; border:none; border-radius:5px; cursor:pointer;">Object-Oriented Programming (OOP) in Java</button>
+        <button onclick="loadJavaLessonTopic('inheritance')" style="display:block; width:100%; margin:5px 0; padding:10px; background:#1890ff; color:white; border:none; border-radius:5px; cursor:pointer;">Inheritance and Polymorphism</button>
+    </div>
+    <div id="javaTopicContent" style="margin-top:20px; border:1px solid #ccc; padding:10px; min-height:100px;">
+        <p>Topic content will appear here...</p>
+    </div>
+
+    <script>
+        console.log('Script loaded');
+        
+        const javaTopics = ['oop', 'inheritance'];
+        let currentTopicIndex = null;
+
+        function loadJavaLessonTopic(topic) {
+            console.log('loadJavaLessonTopic called with topic:', topic);
+            alert('Button clicked! Topic: ' + topic); // This will show if the function is called
+            
+            currentTopicIndex = javaTopics.indexOf(topic);
+            
+            const topicContent = {
+                oop: '<h3>Object-Oriented Programming (OOP) in Java</h3><p>OOP is a programming paradigm based on objects and classes.</p>',
+                inheritance: '<h3>Inheritance and Polymorphism</h3><p>Inheritance allows a class to inherit fields and methods from another class.</p>'
+            };
+            
+            const contentDiv = document.getElementById('javaTopicContent');
+            console.log('Content div found:', contentDiv);
+            
+            if (!contentDiv) {
+                console.error('javaTopicContent div not found!');
+                return;
+            }
+            
+            const content = topicContent[topic];
+            console.log('Content for topic:', content.substring(0, 100));
+            
+            contentDiv.innerHTML = content;
+            console.log('Content div updated successfully');
+        }
+    </script>
+</body>
+</html> 

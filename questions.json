@@ -1,0 +1,2134 @@
+{
+  "Programming": {
+    "Python": [
+            {
+        "question": "What is the output of print(type([]))?",
+        "choices": ["<class 'list'>", "<class 'dict'>", "<type 'list'>", "list"],
+        "answer": "<class 'list'>"
+      },
+      {
+        "question": "Which of the following is a valid variable name?",
+        "choices": ["2variable", "variable_2", "variable-2", "variable 2"],
+        "answer": "variable_2"
+      },
+      {
+        "question": "What is the output of print(2 ** 3)?",
+        "choices": ["5", "6", "8", "9"],
+        "answer": "8"
+      },
+      {
+        "question": "Which keyword is used to define a function in Python?",
+        "choices": ["function", "def", "fun", "define"],
+        "answer": "def"
+      },
+      {
+        "question": "What is the output of print(len(\"Hello\"))?",
+        "choices": ["4", "5", "6", "Error"],
+        "answer": "5"
+      },
+      {
+        "question": "Which of the following is a correct way to create a dictionary?",
+        "choices": ["d = {}", "d = []", "d = ()", "d = \"dict\""],
+        "answer": "d = {}"
+      },
+      {
+        "question": "What will print(\"Hello\"[1]) output?",
+        "choices": ["H", "e", "l", "o"],
+        "answer": "e"
+      },
+      {
+        "question": "Which data type is immutable?",
+        "choices": ["List", "Dictionary", "Tuple", "Set"],
+        "answer": "Tuple"
+      },
+      {
+        "question": "Which of these is a loop structure in Python?",
+        "choices": ["iterate", "loop", "while", "repeat"],
+        "answer": "while"
+      },
+      {
+        "question": "What is the correct file extension for Python files?",
+        "choices": [".pyt", ".ptn", ".py", ".python"],
+        "answer": ".py"
+      },
+      {
+        "question": "Which of the following methods can be used to add an element to a list?",
+        "choices": ["append()", "insert()", "extend()", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What is the correct syntax for an if-else block?",
+        "choices": ["if x=5 then print(x)", "if x == 5: print(x)", "if x === 5 { print(x) }", "if x => 5 print(x)"],
+        "answer": "if x == 5: print(x)"
+      },
+      {
+        "question": "What is the output of print(bool(0))?",
+        "choices": ["True", "False", "0", "Error"],
+        "answer": "False"
+      },
+      {
+        "question": "Which function returns the absolute value of a number?",
+        "choices": ["abs()", "absolute()", "fabs()", "value()"],
+        "answer": "abs()"
+      },
+      {
+        "question": "What is the correct syntax to open a file named \"sample.txt\" in read mode?",
+        "choices": ["open(\"sample.txt\", \"w\")", "open(\"sample.txt\", \"r\")", "open(\"sample.txt\")", "file.open(\"sample.txt\")"],
+        "answer": "open(\"sample.txt\", \"r\")"
+      },
+      {
+        "question": "What is the output of print(10 // 3)?",
+        "choices": ["3.33", "3", "4", "10"],
+        "answer": "3"
+      },
+      {
+        "question": "Which statement is used to exit a loop?",
+        "choices": ["stop", "exit", "break", "terminate"],
+        "answer": "break"
+      },
+      {
+        "question": "Which of the following is a valid set declaration?",
+        "choices": ["s = []", "s = {}", "s = set()", "s = ()"],
+        "answer": "s = set()"
+      },
+      {
+        "question": "Which of the following keywords is used for exception handling?",
+        "choices": ["try", "error", "exception", "catch"],
+        "answer": "try"
+      },
+      {
+        "question": "Which module in Python is used to generate random numbers?",
+        "choices": ["math", "random", "os", "statistics"],
+        "answer": "random"
+      }
+    ],
+    "Python_CodeOutputs": [
+      {
+        "question": "What is the output of the following Python code?\nprint(\"Hello, Python!\")",
+        "answer": "Hello, Python!"
+      },
+      {
+        "question": "What is the output of the following Python code?\ndef add(a, b):\n    return a + b\nprint(add(2, 3))",
+        "answer": "5"
+      },
+      {
+        "question": "What is the output of the following Python code?\nx = 7\nif x % 2 == 0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")",
+        "answer": "Odd"
+      },
+      {
+        "question": "What is the output of the following Python code?\nfor i in range(1, 4):\n    print(i)",
+        "answer": "1\n2\n3"
+      },
+      {
+        "question": "What is the output of the following Python code?\nmy_list = [10, 20, 30]\nprint(my_list[1])",
+        "answer": "20"
+      },
+      {
+        "question": "What is the output of the following Python code?\ndef greet():\n    return \"Hi!\"\nprint(greet())",
+        "answer": "Hi!"
+      },
+      {
+        "question": "What is the output of the following Python code?\nx = 3\nx *= 2\nprint(x)",
+        "answer": "6"
+      },
+      {
+        "question": "What is the output of the following Python code?\nperson = {\"name\": \"Alex\", \"age\": 21}\nprint(person[\"age\"])",
+        "answer": "21"
+      },
+      {
+        "question": "What is the output of the following Python code?\ndef square(n):\n    return n * n\nprint(square(4))",
+        "answer": "16"
+      },
+      {
+        "question": "What is the output of the following Python code?\nfor letter in \"Hi\":\n    print(letter)",
+        "answer": "H\ni"
+      }
+    ],
+    "Java": [ 
+      {
+        "question": "What is the correct way to declare a variable in Java?",
+        "choices": ["int x;", "x int;", "declare int x;", "var x int;"],
+        "answer": "int x;"
+      },
+      {
+        "question": "Which of the following is a valid main method declaration in Java?",
+        "choices": [
+          "public static int main(String[] args)",
+          "public void main(String args)",
+          "public static void main(String[] args)",
+          "static public void main(String args[])"
+        ],
+        "answer": "public static void main(String[] args)"
+      },
+      {
+        "question": "Which keyword is used to inherit a class in Java?",
+        "choices": ["inherits", "extends", "implements", "instanceof"],
+        "answer": "extends"
+      },
+      {
+        "question": "What is the size of an int data type in Java?",
+        "choices": ["4 bytes", "8 bytes", "2 bytes", "Depends on the system"],
+        "answer": "4 bytes"
+      },
+      {
+        "question": "Which of the following is a valid way to create an object in Java?",
+        "choices": [
+          "ClassName object = new ClassName();",
+          "object = ClassName();",
+          "new ClassName object();",
+          "ClassName object();"
+        ],
+        "answer": "ClassName object = new ClassName();"
+      },
+      {
+        "question": "Which of these is a valid loop structure in Java?",
+        "choices": ["repeat", "while", "foreach", "loop"],
+        "answer": "while"
+      },
+      {
+        "question": "Which of the following methods can be used to find the length of a string in Java?",
+        "choices": ["length", "length()", "size()", "count()"],
+        "answer": "length()"
+      },
+      {
+        "question": "Which exception is thrown when a division by zero occurs?",
+        "choices": ["ZeroDivideException", "ArithmeticException", "DivideByZeroException", "NullPointerException"],
+        "answer": "ArithmeticException"
+      },
+      {
+        "question": "Which access modifier allows visibility within the same package?",
+        "choices": ["public", "private", "protected", "default (no modifier)"],
+        "answer": "default (no modifier)"
+      },
+      {
+        "question": "Which of these operators is used for logical AND?",
+        "choices": ["&", "&&", "|", "||"],
+        "answer": "&&"
+      },
+      {
+        "question": "What is the result of 5 + 3 * 2 in Java?",
+        "choices": ["16", "11", "13", "10"],
+        "answer": "11"
+      },
+      {
+        "question": "Which keyword is used to prevent method overriding?",
+        "choices": ["final", "static", "void", "const"],
+        "answer": "final"
+      },
+      {
+        "question": "Which of the following is not a Java primitive type?",
+        "choices": ["int", "boolean", "String", "char"],
+        "answer": "String"
+      },
+      {
+        "question": "Which collection class allows you to store elements in a key-value pair?",
+        "choices": ["ArrayList", "HashMap", "TreeSet", "LinkedList"],
+        "answer": "HashMap"
+      },
+      {
+        "question": "Which method is used to start a thread in Java?",
+        "choices": ["begin()", "start()", "run()", "execute()"],
+        "answer": "start()"
+      },
+      {
+        "question": "What is the default value of a boolean variable in Java?",
+        "choices": ["true", "false", "0", "null"],
+        "answer": "false"
+      },
+      {
+        "question": "Which of the following is the parent class of all classes in Java?",
+        "choices": ["Object", "Class", "Main", "Root"],
+        "answer": "Object"
+      },
+      {
+        "question": "How do you write a single-line comment in Java?",
+        "choices": [
+          "# This is a comment",
+          "// This is a comment",
+          "/* This is a comment */",
+          "-- This is a comment"
+        ],
+        "answer": "// This is a comment"
+      },
+      {
+        "question": "Which keyword is used to create a subclass?",
+        "choices": ["new", "extend", "extends", "implements"],
+        "answer": "extends"
+      },
+      {
+        "question": "Which package is automatically imported in every Java program?",
+        "choices": ["java.util", "java.lang", "java.io", "java.net"],
+        "answer": "java.lang"
+      }
+    ],
+    "Java_CodeOutputs": [
+      {
+        "question": "What is the output of the following Java code?\nSystem.out.println(\"Hello, Java!\");",
+        "answer": "Hello, Java!"
+      },
+      {
+        "question": "What is the output of the following Java code?\nint a = 2, b = 3;\nSystem.out.println(a + b);",
+        "answer": "5"
+      },
+      {
+        "question": "What is the output of the following Java code?\nint num = 6;\nif(num % 2 == 0) {\n    System.out.println(\"Even\");\n} else {\n    System.out.println(\"Odd\");\n}",
+        "answer": "Even"
+      },
+      {
+        "question": "What is the output of the following Java code?\nfor(int i = 1; i <= 3; i++) {\n    System.out.println(i);\n}",
+        "answer": "1\n2\n3"
+      },
+      {
+        "question": "What is the output of the following Java code?\nString text = \"Java\";\nSystem.out.println(text.length());",
+        "answer": "4"
+      },
+      {
+        "question": "What is the output of the following Java code?\nint[] nums = {1, 2, 3};\nSystem.out.println(nums[1]);",
+        "answer": "2"
+      },
+      {
+        "question": "What is the output of the following Java code?\nint x = 5;\nx *= 2;\nSystem.out.println(x);",
+        "answer": "10"
+      },
+      {
+        "question": "What is the output of the following Java code?\nSystem.out.println(\"A\" + \"B\");",
+        "answer": "AB"
+      },
+      {
+        "question": "What is the output of the following Java code?\nint a = 4;\nint b = 2;\nSystem.out.println(a / b);",
+        "answer": "2"
+      },
+      {
+        "question": "What is the output of the following Java code?\nfor(char c : \"Hi\".toCharArray()) {\n    System.out.println(c);\n}",
+        "answer": "H\ni"
+      }
+    ],
+    "C": [
+      {
+        "question": "Which of the following is the correct syntax to declare an integer variable in C?",
+        "choices": ["int num;", "integer num;", "var num;", "num int;"],
+        "answer": "int num;"
+      },
+      {
+        "question": "Which function is used to display output in C?",
+        "choices": ["cin", "echo", "printf()", "cout"],
+        "answer": "printf()"
+      },
+      {
+        "question": "How do you write a comment in C?",
+        "choices": ["# comment", "// comment", "<!-- comment -->", "** comment **"],
+        "answer": "// comment"
+      },
+      {
+        "question": "Which header file is needed to use printf()?",
+        "choices": ["#include <stdio.h>", "#include <iostream>", "#include <stdlib.h>", "#include <conio.h>"],
+        "answer": "#include <stdio.h>"
+      },
+      {
+        "question": "What is the correct way to start the main function?",
+        "choices": ["function main()", "int main()", "void main()", "program main()"],
+        "answer": "int main()"
+      },
+      {
+        "question": "Which operator is used to get the remainder of a division?",
+        "choices": ["/", "//", "%", "mod"],
+        "answer": "%"
+      },
+      {
+        "question": "What is the correct way to declare a character variable?",
+        "choices": ["char letter;", "string letter;", "text letter;", "character letter;"],
+        "answer": "char letter;"
+      },
+      {
+        "question": "How do you accept input from the user in C?",
+        "choices": ["gets()", "scanf()", "cin>>", "input()"],
+        "answer": "scanf()"
+      },
+      {
+        "question": "Which of the following is a loop in C?",
+        "choices": ["repeat-until", "foreach", "for", "loop"],
+        "answer": "for"
+      },
+      {
+        "question": "How do you declare a constant value in C?",
+        "choices": ["define PI 3.14", "const float PI = 3.14;", "constant PI = 3.14;", "PI := 3.14;"],
+        "answer": "const float PI = 3.14;"
+      },
+      {
+        "question": "Which keyword is used to return a value from a function?",
+        "choices": ["exit", "return", "break", "continue"],
+        "answer": "return"
+      },
+      {
+        "question": "How is a function declared in C?",
+        "choices": ["function name() {}", "void name() {}", "def name() {}", "sub name() {}"],
+        "answer": "void name() {}"
+      },
+      {
+        "question": "What will printf(\"%d\", 3 + 2 * 2); output?",
+        "choices": ["10", "7", "8", "5"],
+        "answer": "7"
+      },
+      {
+        "question": "Which keyword is used for decision making in C?",
+        "choices": ["if", "select", "choose", "switch"],
+        "answer": "if"
+      },
+      {
+        "question": "How do you start a while loop in C?",
+        "choices": ["while (condition) {}", "loop while (condition) {}", "repeat (condition) {}", "while condition do {}"],
+        "answer": "while (condition) {}"
+      },
+      {
+        "question": "Which function is used to find the length of a string in C?",
+        "choices": ["strlen()", "length()", "size()", "len()"],
+        "answer": "strlen()"
+      },
+      {
+        "question": "Which data type is typically used to store decimal values?",
+        "choices": ["int", "float", "char", "bool"],
+        "answer": "float"
+      },
+      {
+        "question": "Which symbol is used to end a statement in C?",
+        "choices": [":", ";", ".", ","],
+        "answer": ";"
+      },
+      {
+        "question": "What is the output of printf(\"%c\", 'A' + 1);?",
+        "choices": ["B", "C", "A1", "Error"],
+        "answer": "B"
+      },
+      {
+        "question": "How do you declare an array of 5 integers?",
+        "choices": ["int nums[5];", "array nums[5];", "int nums = [5];", "var nums = new int[5];"],
+        "answer": "int nums[5];"
+      }
+    ],
+    "C_CodeOutputs": [
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    printf(\"Hello, C!\");\n    return 0;\n}",
+        "answer": "Hello, C!"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int a = 2, b = 3;\n    printf(\"%d\", a + b);\n    return 0;\n}",
+        "answer": "5"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int num = 5;\n    if(num % 2 == 0)\n        printf(\"Even\");\n    else\n        printf(\"Odd\");\n    return 0;\n}",
+        "answer": "Odd"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    for(int i = 1; i <= 3; i++)\n        printf(\"%d\\n\", i);\n    return 0;\n}",
+        "answer": "1\n2\n3"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int arr[] = {10, 20, 30};\n    printf(\"%d\", arr[1]);\n    return 0;\n}",
+        "answer": "20"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int x = 3;\n    x *= 2;\n    printf(\"%d\", x);\n    return 0;\n}",
+        "answer": "6"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    printf(\"%d\", 5/2);\n    return 0;\n}",
+        "answer": "2"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    char str[] = \"Hi\";\n    printf(\"%s\", str);\n    return 0;\n}",
+        "answer": "Hi"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    int a = 4;\n    int b = 2;\n    printf(\"%d\", a / b);\n    return 0;\n}",
+        "answer": "2"
+      },
+      {
+        "question": "What is the output of the following C code?\n#include <stdio.h>\nint main() {\n    for(int i = 0; i < 2; i++)\n        printf(\"C\\n\");\n    return 0;\n}",
+        "answer": "C\nC"
+      }
+    ],
+    "C++": [
+            {
+        "question": "Which of the following is the correct way to declare a variable in C++?",
+        "choices": ["int x = 5;", "dim x = 5;", "var x = 5;", "let x := 5;"],
+        "answer": "int x = 5;"
+      },
+      {
+        "question": "Which of these is used to output text to the console in C++?",
+        "choices": ["cout <<", "console.log()", "print()", "echo"],
+        "answer": "cout <<"
+      },
+      {
+        "question": "What symbol is used to start a single-line comment in C++?",
+        "choices": ["//", "#", "<!-- -->", "--"],
+        "answer": "//"
+      },
+      {
+        "question": "Which of these is the correct way to start the main function in C++?",
+        "choices": ["main()", "int main()", "void main()", "start()"],
+        "answer": "int main()"
+      },
+      {
+        "question": "Which operator is used for equality comparison in C++?",
+        "choices": ["==", "=", ":=", "equals"],
+        "answer": "=="
+      },
+      {
+        "question": "Which data type is used to store decimal numbers in C++?",
+        "choices": ["int", "double", "char", "bool"],
+        "answer": "double"
+      },
+      {
+        "question": "Which keyword is used to stop a loop in C++?",
+        "choices": ["exit", "break", "continue", "stop"],
+        "answer": "break"
+      },
+      {
+        "question": "Which of these headers is required for using cout?",
+        "choices": ["<iostream>", "<stdio.h>", "<conio.h>", "<math.h>"],
+        "answer": "<iostream>"
+      },
+      {
+        "question": "What is the operator for modulo (remainder) in C++?",
+        "choices": ["%", "/", "*", "mod"],
+        "answer": "%"
+      },
+      {
+        "question": "Which keyword is used to declare a constant variable in C++?",
+        "choices": ["let", "const", "constant", "final"],
+        "answer": "const"
+      },
+      {
+        "question": "Which data type would you use to store a single character?",
+        "choices": ["int", "char", "string", "bool"],
+        "answer": "char"
+      },
+      {
+        "question": "Which control structure is used for decision making in C++?",
+        "choices": ["if", "switch", "else if", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What does the continue keyword do in a loop?",
+        "choices": ["Terminates the loop", "Skips to the next iteration", "Pauses the program", "Restarts the loop"],
+        "answer": "Skips to the next iteration"
+      },
+      {
+        "question": "Which operator is used to concatenate two strings in C++?",
+        "choices": ["+", "&", ".", "concat()"],
+        "answer": "+"
+      },
+      {
+        "question": "Which function is used to read input from the user?",
+        "choices": ["cout", "cin", "scanf", "read()"],
+        "answer": "cin"
+      },
+      {
+        "question": "How do you include a library in C++?",
+        "choices": ["#include <library>", "import library", "use library", "include library"],
+        "answer": "#include <library>"
+      },
+      {
+        "question": "What is the size of int on most modern C++ systems?",
+        "choices": ["4 bytes", "2 bytes", "8 bytes", "1 byte"],
+        "answer": "4 bytes"
+      },
+      {
+        "question": "Which operator is used to increment a variable by 1 in C++?",
+        "choices": ["++", "+=", "inc()", "add 1"],
+        "answer": "++"
+      },
+      {
+        "question": "Which is a valid Boolean value in C++?",
+        "choices": ["yes", "true", "maybe", "on"],
+        "answer": "true"
+      },
+      {
+        "question": "Which keyword is used to define a class in C++?",
+        "choices": ["class", "struct", "object", "define"],
+        "answer": "class"
+      }
+    ],
+     "C++_CodeOutputs": [
+      {
+        "question": "What is the output of the following C++ code?\ncout << \"Hello, C++!\";",
+        "answer": "Hello, C++!"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nint a = 3, b = 4;\ncout << a + b;",
+        "answer": "7"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nint num = 6;\nif(num % 2 == 0)\n  cout << \"Even\";\nelse\n  cout << \"Odd\";",
+        "answer": "Even"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nfor(int i=1; i<=3; i++)\n  cout << i << endl;",
+        "answer": "1\n2\n3"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nint arr[] = {10, 20, 30};\ncout << arr[0];",
+        "answer": "10"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nint x = 5;\nx *= 3;\ncout << x;",
+        "answer": "15"
+      },
+      {
+        "question": "What is the output of the following C++ code?\ncout << 10 / 2;",
+        "answer": "5"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nstring str = \"Hello\";\ncout << str;",
+        "answer": "Hello"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nint a = 9, b = 3;\ncout << a / b;",
+        "answer": "3"
+      },
+      {
+        "question": "What is the output of the following C++ code?\nfor(int i = 0; i < 2; i++)\n  cout << \"C++\" << endl;",
+        "answer": "C++\nC++"
+      }
+    ],
+    "PHP": [
+      {
+        "question": "Which tag is used to write PHP code?",
+        "choices": ["<script>", "<?php ?>", "<php>", "<code>"],
+        "answer": "<?php ?>"
+      },
+      {
+        "question": "Which function is used to output text in PHP?",
+        "choices": ["echo()", "print()", "both a and b", "console.log()"],
+        "answer": "both a and b"
+      },
+      {
+        "question": "What symbol is used to start a variable in PHP?",
+        "choices": ["@", "$", "#", "%"],
+        "answer": "$"
+      },
+      {
+        "question": "Which of the following is used to get the length of a string in PHP?",
+        "choices": ["strlen()", "length()", "count()", "size()"],
+        "answer": "strlen()"
+      },
+      {
+        "question": "What is the correct way to create a function in PHP?",
+        "choices": ["function myFunc {}", "func myFunc() {}", "function myFunc() {}", "def myFunc() {}"],
+        "answer": "function myFunc() {}"
+      },
+      {
+        "question": "Which of the following is a superglobal variable in PHP?",
+        "choices": ["$GET", "$_POST", "$SESSION", "$COOKIE"],
+        "answer": "$_POST"
+      },
+      {
+        "question": "How do you write a single-line comment in PHP?",
+        "choices": ["<!-- comment -->", "# comment", "// comment", "both b and c"],
+        "answer": "both b and c"
+      },
+      {
+        "question": "Which function is used to connect to a MySQL database in PHP (procedural)?",
+        "choices": ["mysqli_connect()", "mysql()", "db_connect()", "connect()"],
+        "answer": "mysqli_connect()"
+      },
+      {
+        "question": "Which operator is used for concatenating strings in PHP?",
+        "choices": ["+", ".", "&", "*"],
+        "answer": "."
+      },
+      {
+        "question": "What is the output of echo 5 + \"5 cats\";",
+        "choices": ["10", "5 cats", "55 cats", "Error"],
+        "answer": "10"
+      },
+      {
+        "question": "Which function is used to check if a file exists?",
+        "choices": ["is_file()", "exists()", "file_exists()", "file_check()"],
+        "answer": "file_exists()"
+      },
+      {
+        "question": "Which keyword is used to stop a loop in PHP?",
+        "choices": ["stop", "exit", "break", "terminate"],
+        "answer": "break"
+      },
+      {
+        "question": "How do you start a session in PHP?",
+        "choices": ["session_begin();", "start_session();", "session_start();", "sessionOpen();"],
+        "answer": "session_start();"
+      },
+      {
+        "question": "Which function is used to include a file in PHP?",
+        "choices": ["require()", "import()", "include()", "both a and c"],
+        "answer": "both a and c"
+      },
+      {
+        "question": "Which function returns the number of elements in an array?",
+        "choices": ["sizeof()", "count()", "array_size()", "length()"],
+        "answer": "count()"
+      },
+      {
+        "question": "What does isset() check for?",
+        "choices": ["If a variable is set and is not NULL", "If a variable is empty", "If a file exists", "If an array has values"],
+        "answer": "If a variable is set and is not NULL"
+      },
+      {
+        "question": "Which function removes whitespace from the start and end of a string?",
+        "choices": ["strip()", "trim()", "remove_whitespace()", "cut()"],
+        "answer": "trim()"
+      },
+      {
+        "question": "What is the correct way to end a PHP statement?",
+        "choices": [";", ":", ".", ","],
+        "answer": ";"
+      },
+      {
+        "question": "How would you redirect a user to another page?",
+        "choices": ["redirect('page.php');", "header(\"Location: page.php\");", "goto page.php;", "move(\"page.php\");"],
+        "answer": "header(\"Location: page.php\");"
+      },
+      {
+        "question": "How do you declare an associative array in PHP?",
+        "choices": ["$arr = array(\"key\" = \"value\");", "$arr = array(\"key\" => \"value\");", "$arr = [\"key\" : \"value\"];", "$arr = (\"key\" => \"value\");"],
+        "answer": "$arr = array(\"key\" => \"value\");"
+      }
+    ],
+    "PHP_CodeOutputs": [
+      {
+        "question": "What is the output of the following PHP code?\n<?php\necho \"Hello, PHP!\";\n?>",
+        "answer": "Hello, PHP!"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\n$a = 5;\n$b = 3;\necho $a + $b;\n?>",
+        "answer": "8"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\n$num = 7;\nif($num % 2 == 0)\n    echo \"Even\";\nelse\n    echo \"Odd\";\n?>",
+        "answer": "Odd"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\nfor($i = 1; $i <= 3; $i++) {\n    echo $i . \"<br>\";\n}\n?>",
+        "answer": "1\n2\n3"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\n$arr = array(10, 20, 30);\necho $arr[0];\n?>",
+        "answer": "10"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\n$x = 6;\n$x *= 2;\necho $x;\n?>",
+        "answer": "12"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\necho 5/2;\n?>",
+        "answer": "2.5"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\n$str = \"Hello\";\necho $str;\n?>",
+        "answer": "Hello"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\n$a = 9;\n$b = 3;\necho $a / $b;\n?>",
+        "answer": "3"
+      },
+      {
+        "question": "What is the output of the following PHP code?\n<?php\nfor($i = 0; $i < 2; $i++) {\n    echo \"PHP<br>\";\n}\n?>",
+        "answer": "PHP\nPHP"
+      }
+    ],
+    "Javascript": [
+      {
+        "question": "Which of the following is the correct way to declare a variable in JavaScript?",
+        "choices": ["var x = 5;", "dim x = 5;", "int x = 5;", "let x := 5;"],
+        "answer": "var x = 5;"
+      },
+      {
+        "question": "Which method can be used to select an HTML element by its ID?",
+        "choices": ["getElementById()", "querySelector()", "getElementsByClassName()", "Both a and b"],
+        "answer": "Both a and b"
+      },
+      {
+        "question": "What is the correct way to write a comment in JavaScript?",
+        "choices": ["<!-- comment -->", "// comment", "# comment", "** comment **"],
+        "answer": "// comment"
+      },
+      {
+        "question": "How do you create a function in JavaScript?",
+        "choices": ["function myFunc() {}", "def myFunc() {}", "function:myFunc() {}", "void myFunc() {}"],
+        "answer": "function myFunc() {}"
+      },
+      {
+        "question": "How do you write an if statement for executing code if x is equal to 5?",
+        "choices": ["if (x == 5) {}", "if x = 5 then {}", "if (x === 5) then {}", "if x == 5: {}"],
+        "answer": "if (x == 5) {}"
+      },
+      {
+        "question": "Which symbol is used for strict equality in JavaScript?",
+        "choices": ["=", "==", "===", ":="],
+        "answer": "==="
+      },
+      {
+        "question": "What is the output of console.log(typeof [])?",
+        "choices": ["object", "array", "list", "undefined"],
+        "answer": "object"
+      },
+      {
+        "question": "Which method adds a new element to the end of an array?",
+        "choices": ["push()", "add()", "insert()", "append()"],
+        "answer": "push()"
+      },
+      {
+        "question": "Which built-in method returns the length of a string?",
+        "choices": ["len()", "length", "getSize()", "size()"],
+        "answer": "length"
+      },
+      {
+        "question": "How do you write a while loop in JavaScript?",
+        "choices": ["while x < 10 {}", "while (x < 10) {}", "repeat while (x < 10) {}", "loop x < 10 {}"],
+        "answer": "while (x < 10) {}"
+      },
+      {
+        "question": "Which method can be used to convert a string to an integer?",
+        "choices": ["parseInt()", "Integer()", "toInt()", "convertInt()"],
+        "answer": "parseInt()"
+      },
+      {
+        "question": "Which operator is used to concatenate strings?",
+        "choices": ["+", "&", ".", "*"],
+        "answer": "+"
+      },
+      {
+        "question": "How do you create an object in JavaScript?",
+        "choices": ["var obj = {};", "var obj = new Object();", "both a and b", "var obj = Object.create()"],
+        "answer": "both a and b"
+      },
+      {
+        "question": "What will console.log(3 + '3') output?",
+        "choices": ["6", "33", "Error", "undefined"],
+        "answer": "33"
+      },
+      {
+        "question": "Which method removes the last element from an array?",
+        "choices": ["remove()", "pop()", "delete()", "shift()"],
+        "answer": "pop()"
+      },
+      {
+        "question": "How do you declare a constant in JavaScript?",
+        "choices": ["constant PI = 3.14;", "var PI = 3.14;", "const PI = 3.14;", "PI := 3.14;"],
+        "answer": "const PI = 3.14;"
+      },
+      {
+        "question": "Which event occurs when the user clicks on an HTML element?",
+        "choices": ["onmouseover", "onchange", "onclick", "onmouseclick"],
+        "answer": "onclick"
+      },
+      {
+        "question": "How can you detect the type of a variable?",
+        "choices": ["typeof", "typeOf()", "getType()", "varType()"],
+        "answer": "typeof"
+      },
+      {
+        "question": "Which keyword is used to skip the current iteration of a loop?",
+        "choices": ["exit", "break", "continue", "skip"],
+        "answer": "continue"
+      },
+      {
+        "question": "What is the correct way to call a function named myFunction?",
+        "choices": ["call myFunction()", "run myFunction()", "myFunction()", "execute myFunction()"],
+        "answer": "myFunction()"
+      }
+    ],
+    "JavaScript_CodeOutputs": [
+      {
+        "question": "What is the output of the following JavaScript code?\nconsole.log(\"Hello, JS!\");",
+        "answer": "Hello, JS!"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nlet a = 4, b = 6;\nconsole.log(a + b);",
+        "answer": "10"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nlet num = 5;\nif(num % 2 === 0) {\n  console.log(\"Even\");\n} else {\n  console.log(\"Odd\");\n}",
+        "answer": "Odd"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nfor(let i=1; i<=3; i++) {\n  console.log(i);\n}",
+        "answer": "1\n2\n3"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nlet arr = [10, 20, 30];\nconsole.log(arr[0]);",
+        "answer": "10"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nlet x = 5;\nx *= 3;\nconsole.log(x);",
+        "answer": "15"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nconsole.log(10 / 2);",
+        "answer": "5"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nlet str = \"Hello\";\nconsole.log(str);",
+        "answer": "Hello"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nlet a = 9, b = 3;\nconsole.log(a / b);",
+        "answer": "3"
+      },
+      {
+        "question": "What is the output of the following JavaScript code?\nfor(let i = 0; i < 2; i++) {\n  console.log(\"JS\");\n}",
+        "answer": "JS\nJS"
+      }
+    ]
+  },
+  "Web Development": {
+    "CSS": [
+       {
+        "question": "Which property is used to change the text color of an element?",
+        "choices": ["font-color", "text-color", "color", "foreground-color"],
+        "answer": "color"
+      },
+      {
+        "question": "How do you select an element with id 'header' in CSS?",
+        "choices": [".header", "header", "#header", "*header"],
+        "answer": "#header"
+      },
+      {
+        "question": "Which property controls the size of text?",
+        "choices": ["text-size", "font-size", "size", "font"],
+        "answer": "font-size"
+      },
+      {
+        "question": "What is the correct syntax for setting a background color?",
+        "choices": ["background-color: blue;", "color-background: blue;", "bg-color: blue;", "background:color blue;"],
+        "answer": "background-color: blue;"
+      },
+      {
+        "question": "How do you make all <p> elements bold?",
+        "choices": ["p { text-weight: bold; }", "p { font-weight: bold; }", "p { font-bold: true; }", "p { bold: on; }"],
+        "answer": "p { font-weight: bold; }"
+      },
+      {
+        "question": "Which property is used to add space between letters?",
+        "choices": ["spacing", "letter-spacing", "character-spacing", "text-spacing"],
+        "answer": "letter-spacing"
+      },
+      {
+        "question": "How do you make a list display horizontally?",
+        "choices": ["list-direction: row;", "display: block;", "display: inline;", "display: inline-block;"],
+        "answer": "display: inline;"
+      },
+      {
+        "question": "Which property sets the space outside an element?",
+        "choices": ["padding", "margin", "border", "spacing"],
+        "answer": "margin"
+      },
+      {
+        "question": "What is the default position value of an element?",
+        "choices": ["fixed", "relative", "absolute", "static"],
+        "answer": "static"
+      },
+      {
+        "question": "Which property changes the type of cursor when hovering?",
+        "choices": ["hover", "cursor", "pointer", "mouse"],
+        "answer": "cursor"
+      },
+      {
+        "question": "What is the shorthand for setting all margins to 20px?",
+        "choices": ["margin: 20px;", "margins: 20px;", "margin-all: 20px;", "margin-size: 20px;"],
+        "answer": "margin: 20px;"
+      },
+      {
+        "question": "How do you apply a class 'nav' to a CSS selector?",
+        "choices": ["#nav", "nav", ".nav", "*nav"],
+        "answer": ".nav"
+      },
+      {
+        "question": "What unit is relative to the font-size of the root element?",
+        "choices": ["em", "rem", "px", "pt"],
+        "answer": "rem"
+      },
+      {
+        "question": "Which CSS rule hides an element?",
+        "choices": ["display: none;", "visibility: hidden;", "Both a and b", "hide: true;"],
+        "answer": "Both a and b"
+      },
+      {
+        "question": "How do you style a link when it is hovered?",
+        "choices": ["a:active", "a:hover", "a:visited", "a:focus"],
+        "answer": "a:hover"
+      },
+      {
+        "question": "Which property adds a shadow to text?",
+        "choices": ["font-shadow", "text-shadow", "shadow-text", "text-style"],
+        "answer": "text-shadow"
+      },
+      {
+        "question": "How do you round the corners of an element?",
+        "choices": ["border-corner", "corner-radius", "border-radius", "radius"],
+        "answer": "border-radius"
+      },
+      {
+        "question": "What property makes an element sit beside another?",
+        "choices": ["inline", "float", "relative", "block"],
+        "answer": "float"
+      },
+      {
+        "question": "Which CSS property sets the width of an element?",
+        "choices": ["size", "width", "length", "dimension"],
+        "answer": "width"
+      },
+      {
+        "question": "What value makes an element flexible inside a flex container?",
+        "choices": ["flex: 1", "grow: 1", "scale: 1", "expand: 1"],
+        "answer": "flex: 1"
+      }
+    ],
+    "CSS_CodeOutputs": [
+      {
+        "question": "What color will the text be in the following code?\n<p style=\"color: red;\">Hello</p>",
+        "answer": "Red"
+      },
+      {
+        "question": "What font size will the paragraph have?\n<p style=\"font-size: 24px;\">Big Text</p>",
+        "answer": "24 pixels"
+      },
+      {
+        "question": "What background color will the div have?\n<div style=\"background-color: yellow;\">Box</div>",
+        "answer": "Yellow"
+      },
+      {
+        "question": "What happens to the text?\n<p style=\"text-align: center;\">Centered Text</p>",
+        "answer": "The text is centered horizontally."
+      },
+      {
+        "question": "What border style will the div have?\n<div style=\"border: 2px solid black;\">Box</div>",
+        "answer": "A black solid border 2 pixels thick."
+      },
+      {
+        "question": "What color is the background?\nbody {\n  background-color: lightblue;\n}",
+        "answer": "Light blue"
+      },
+      {
+        "question": "What happens to the text in the paragraph?\np {\n  font-weight: bold;\n}",
+        "answer": "The paragraph text becomes bold."
+      },
+      {
+        "question": "What happens to the link when hovered?\na:hover {\n  color: green;\n}",
+        "answer": "The link text color turns green when hovered."
+      },
+      {
+        "question": "What is the padding applied?\ndiv {\n  padding: 10px;\n}",
+        "answer": "10 pixels of padding on all sides of the div."
+      },
+      {
+        "question": "What happens to the heading?\nh1 {\n  text-transform: uppercase;\n}",
+        "answer": "The heading text converts to uppercase letters."
+      }
+    ],
+    "HTML": [
+      {
+        "question": "Which tag is used to create a hyperlink?",
+        "choices": ["<a>", "<link>", "<href>", "<hyper>"],
+        "answer": "<a>"
+      },
+      {
+        "question": "What attribute specifies an image source in an <img> tag?",
+        "choices": ["src", "href", "link", "source"],
+        "answer": "src"
+      },
+      {
+        "question": "Which tag is used to create a numbered list?",
+        "choices": ["<ul>", "<ol>", "<list>", "<num>"],
+        "answer": "<ol>"
+      },
+      {
+        "question": "What is the correct HTML for inserting a line break?",
+        "choices": ["<br>", "<break>", "<lb>", "<line>"],
+        "answer": "<br>"
+      },
+      {
+        "question": "Which element is used for the largest heading?",
+        "choices": ["<h6>", "<h1>", "<heading>", "<head>"],
+        "answer": "<h1>"
+      },
+      {
+        "question": "How can you open a link in a new tab?",
+        "choices": ["target=\"_blank\"", "newtab=\"yes\"", "target=\"_new\"", "open=\"new\""],
+        "answer": "target=\"_blank\""
+      },
+      {
+        "question": "Which tag is used to define a table row?",
+        "choices": ["<tr>", "<td>", "<th>", "<row>"],
+        "answer": "<tr>"
+      },
+      {
+        "question": "Which tag defines an unordered list?",
+        "choices": ["<ul>", "<ol>", "<li>", "<list>"],
+        "answer": "<ul>"
+      },
+      {
+        "question": "Which HTML element is used to play video files?",
+        "choices": ["<media>", "<video>", "<movie>", "<play>"],
+        "answer": "<video>"
+      },
+      {
+        "question": "What does HTML stand for?",
+        "choices": ["HyperText Markup Language", "HighText Machine Language", "Hyper Transfer Markup Language", "Hyper Tool Markup Language"],
+        "answer": "HyperText Markup Language"
+      },
+      {
+        "question": "Which input type is used for password fields?",
+        "choices": ["text", "password", "pass", "secure"],
+        "answer": "password"
+      },
+      {
+        "question": "Which element groups block-level and inline elements?",
+        "choices": ["<div>", "<span>", "<group>", "<section>"],
+        "answer": "<div>"
+      },
+      {
+        "question": "Which HTML attribute defines inline styles?",
+        "choices": ["style", "css", "font", "styles"],
+        "answer": "style"
+      },
+      {
+        "question": "Which tag makes text italic?",
+        "choices": ["<em>", "<i>", "<italic>", "<it>"],
+        "answer": "<i>"
+      },
+      {
+        "question": "How do you create a checkbox in HTML?",
+        "choices": ["<input type=\"checkbox\">", "<checkbox>", "<input type=\"check\">", "<input type=\"box\">"],
+        "answer": "<input type=\"checkbox\">"
+      },
+      {
+        "question": "Which element represents navigation links?",
+        "choices": ["<nav>", "<navigate>", "<menu>", "<links>"],
+        "answer": "<nav>"
+      },
+      {
+        "question": "What is the correct syntax to comment in HTML?",
+        "choices": ["<!-- comment -->", "// comment", "/* comment */", "# comment"],
+        "answer": "<!-- comment -->"
+      },
+      {
+        "question": "Which tag is used to define a form?",
+        "choices": ["<form>", "<input>", "<table>", "<submit>"],
+        "answer": "<form>"
+      },
+      {
+        "question": "Which element specifies a footer for a document?",
+        "choices": ["<footer>", "<bottom>", "<foot>", "<end>"],
+        "answer": "<footer>"
+      },
+      {
+        "question": "What attribute specifies the URL of a link?",
+        "choices": ["href", "src", "link", "url"],
+        "answer": "href"
+      }
+    ],
+    "HTML_CodeOutputs": [
+      {
+        "question": "<p>Hello, World!</p>",
+        "answer": "Displays 'Hello, World!' as a paragraph."
+      },
+      {
+        "question": "<h1>Heading 1</h1>",
+        "answer": "Displays 'Heading 1' as a large heading."
+      },
+      {
+        "question": "<b>Bold Text</b>",
+        "answer": "Displays 'Bold Text' in bold."
+      },
+      {
+        "question": "<i>Italic Text</i>",
+        "answer": "Displays 'Italic Text' in italics."
+      },
+      {
+        "question": "<ul><li>Item 1</li><li>Item 2</li></ul>",
+        "answer": "Displays 'Item 1' and 'Item 2' as a bulleted list."
+      },
+      {
+        "question": "<a href=\"https://plm.edu.ph\">Visit PLM</a>",
+        "answer": "Displays a clickable link labeled 'Visit PLM'."
+      },
+      {
+        "question": "<img src=\"logo.png\" alt=\"Logo\">",
+        "answer": "Displays an image if 'logo.png' exists, otherwise shows 'Logo' text."
+      },
+      {
+        "question": "<input type=\"text\">",
+        "answer": "Displays a single-line text input box."
+      },
+      {
+        "question": "<button>Click Me</button>",
+        "answer": "Displays a button labeled 'Click Me'."
+      },
+      {
+        "question": "<table border=\"1\"><tr><td>Cell 1</td><td>Cell 2</td></tr></table>",
+        "answer": "Displays a table with one row and two cells containing 'Cell 1' and 'Cell 2'."
+      }
+    ],
+    "Node.js": [
+      {
+        "question": "Which of the following is a core module in Node.js?",
+        "choices": ["http", "express", "mongoose", "webpack"],
+        "answer": "http"
+      },
+      {
+        "question": "What command initializes a new Node.js project?",
+        "choices": ["node start", "npm init", "node init", "npm install"],
+        "answer": "npm init"
+      },
+      {
+        "question": "Which file is typically the entry point for a Node.js application?",
+        "choices": ["server.js", "app.html", "main.css", "package.json"],
+        "answer": "server.js"
+      },
+      {
+        "question": "Which method is used to create a server in Node.js?",
+        "choices": ["createServer()", "startServer()", "begin()", "httpServer()"],
+        "answer": "createServer()"
+      },
+      {
+        "question": "Which of the following is used for asynchronous operations in Node.js?",
+        "choices": ["Promises", "Threads", "Events", "Prompts"],
+        "answer": "Promises"
+      },
+      {
+        "question": "What command installs the express module locally?",
+        "choices": ["npm install express", "node get express", "npm fetch express", "install express"],
+        "answer": "npm install express"
+      },
+      {
+        "question": "In Node.js, require() is used to:",
+        "choices": ["Import modules", "Export modules", "Initialize variables", "Connect to databases"],
+        "answer": "Import modules"
+      },
+      {
+        "question": "Which statement exports a module in Node.js?",
+        "choices": ["module.exports = value", "export.value", "require.exports value", "modules.export value"],
+        "answer": "module.exports = value"
+      },
+      {
+        "question": "Which command lists installed npm packages?",
+        "choices": ["npm list", "npm view", "node list", "npm install list"],
+        "answer": "npm list"
+      },
+      {
+        "question": "The default port number for HTTP servers is:",
+        "choices": ["80", "3000", "8080", "443"],
+        "answer": "80"
+      },
+      {
+        "question": "What is the correct way to read a file asynchronously in Node.js?",
+        "choices": ["fs.readFile(path, callback)", "fs.readFileSync(path)", "fileSystem.read()", "read(path)"],
+        "answer": "fs.readFile(path, callback)"
+      },
+      {
+        "question": "What module allows working with file paths?",
+        "choices": ["path", "url", "http", "querystring"],
+        "answer": "path"
+      },
+      {
+        "question": "How do you log to the console in Node.js?",
+        "choices": ["console.log()", "log.console()", "write.log()", "log()"],
+        "answer": "console.log()"
+      },
+      {
+        "question": "Which built-in Node.js module is used for working with data streams?",
+        "choices": ["stream", "flow", "buffer", "data"],
+        "answer": "stream"
+      },
+      {
+        "question": "What is a callback function?",
+        "choices": [
+          "A function called after another function completes",
+          "A loop in JavaScript",
+          "An HTML event listener",
+          "A CSS property"
+        ],
+        "answer": "A function called after another function completes"
+      },
+      {
+        "question": "What command uninstalls a package in Node.js?",
+        "choices": [
+          "npm uninstall packagename",
+          "npm remove packagename",
+          "node remove packagename",
+          "npm delete packagename"
+          ],
+        "answer": "npm uninstall packagename"
+      },
+      {
+        "question": "Which keyword is used for asynchronous functions?",
+        "choices": ["async", "defer", "wait", "sync"],
+        "answer": "async"
+      },
+      {
+        "question": "What module handles events in Node.js?",
+        "choices": ["events", "http", "fs", "url"],
+        "answer": "events"
+      },
+      {
+        "question": "How do you terminate a Node.js process programmatically?",
+        "choices": ["process.exit()", "exit()", "close()", "end()"],
+        "answer": "process.exit()"
+      },
+      {
+        "question": "Which package manager is used with Node.js?",
+        "choices": ["npm", "pip", "gem", "yarn"],
+        "answer": "npm"
+      }
+    ],
+    "NodeJS_CodeOutputs": [
+      {
+        "question": "console.log(\"Hello, Node!\");",
+        "answer": "Hello, Node!"
+      },
+      {
+        "question": "let sum = 2 + 3;\nconsole.log(sum);",
+        "answer": "5"
+      },
+      {
+        "question": "let name = \"PLM\";\nconsole.log(\"Hello, \" + name);",
+        "answer": "Hello, PLM"
+      },
+      {
+        "question": "for(let i=1; i<=3; i++){\n  console.log(i);\n}",
+        "answer": "1\n2\n3"
+      },
+      {
+        "question": "let arr = [5, 10, 15];\nconsole.log(arr[1]);",
+        "answer": "10"
+      },
+      {
+        "question": "function greet() {\n  return \"Hi there!\";\n}\nconsole.log(greet());",
+        "answer": "Hi there!"
+      },
+      {
+        "question": "let x = 5;\nif(x > 3){\n  console.log(\"Greater\");\n}",
+        "answer": "Greater"
+      },
+      {
+        "question": "let user = {name: \"John\", age: 20};\nconsole.log(user.name);",
+        "answer": "John"
+      },
+      {
+        "question": "console.log(typeof 42);",
+        "answer": "number"
+      },
+      {
+        "question": "console.log(\"PLM\".length);",
+        "answer": "3"
+      }
+    ],
+    "React": [
+       {
+        "question": "What command is used to create a new React app?",
+        "choices": ["npx create-react-app myApp", "npm new react", "react-create myApp", "create-react myApp"],
+        "answer": "npx create-react-app myApp"
+      },
+      {
+        "question": "Which file typically contains the root component rendered to the DOM?",
+        "choices": ["index.js", "app.js", "style.css", "package.json"],
+        "answer": "index.js"
+      },
+      {
+        "question": "Which keyword is used to define a React component?",
+        "choices": ["function or class", "component", "view", "module"],
+        "answer": "function or class"
+      },
+      {
+        "question": "What is JSX?",
+        "choices": ["JavaScript XML syntax extension", "A React server library", "A routing protocol", "A CSS framework"],
+        "answer": "JavaScript XML syntax extension"
+      },
+      {
+        "question": "In React, what does state represent?",
+        "choices": ["Component's data at a point in time", "Static HTML content", "CSS styling", "Browser storage"],
+        "answer": "Component's data at a point in time"
+      },
+      {
+        "question": "Which hook is used to perform side effects in function components?",
+        "choices": ["useEffect", "useState", "useEvent", "useChange"],
+        "answer": "useEffect"
+      },
+      {
+        "question": "Which prop makes a component dynamic?",
+        "choices": ["props", "state", "context", "ref"],
+        "answer": "props"
+      },
+      {
+        "question": "Which command starts the development server in a React app?",
+        "choices": ["npm start", "npm serve", "npx start", "node react"],
+        "answer": "npm start"
+      },
+      {
+        "question": "Which package is commonly used for routing in React?",
+        "choices": ["react-router-dom", "react-navigate", "react-path", "router-core"],
+        "answer": "react-router-dom"
+      },
+      {
+        "question": "What is the virtual DOM?",
+        "choices": ["Lightweight copy of the actual DOM", "The root HTML file", "React's API documentation", "The browser's memory storage"],
+        "answer": "Lightweight copy of the actual DOM"
+      },
+      {
+        "question": "How do you pass data to child components?",
+        "choices": ["Through props", "Using CSS files", "Directly calling state", "By global variables"],
+        "answer": "Through props"
+      },
+      {
+        "question": "What is the correct syntax to use a prop inside JSX?",
+        "choices": ["{props.name}", "[props.name]", "{{props.name}}", "props(name)"],
+        "answer": "{props.name}"
+      },
+      {
+        "question": "Which lifecycle method runs after the component is rendered?",
+        "choices": ["componentDidMount()", "render()", "componentWillMount()", "componentRemove()"],
+        "answer": "componentDidMount()"
+      },
+      {
+        "question": "Which hook is primarily used to hold component state?",
+        "choices": ["useState", "useEffect", "useMemo", "useRef"],
+        "answer": "useState"
+      },
+      {
+        "question": "How do you handle events in React?",
+        "choices": ["Use camelCase and pass function references", "Add inline scripts", "Use HTML event attributes", "Through JSON files"],
+        "answer": "Use camelCase and pass function references"
+      },
+      {
+        "question": "What command installs React globally?",
+        "choices": ["npm install -g react", "npm global react", "npm install react", "node react"],
+        "answer": "npm install -g react"
+      },
+      {
+        "question": "How do you render a list in React?",
+        "choices": ["Using the map() function", "Using forEach()", "With for loops directly in JSX", "With foreach()"],
+        "answer": "Using the map() function"
+      },
+      {
+        "question": "What must you add when rendering lists in React?",
+        "choices": ["A unique key prop", "Inline CSS", "A closing div", "A route path"],
+        "answer": "A unique key prop"
+      },
+      {
+        "question": "What does useRef() hook do?",
+        "choices": ["Accesses DOM elements directly", "Tracks state changes", "Imports React packages", "Defines routes"],
+        "answer": "Accesses DOM elements directly"
+      },
+      {
+        "question": "Which extension is typically used for React files?",
+        "choices": [".jsx", ".js", ".html", ".css"],
+        "answer": ".jsx"
+      }
+    ],
+    "React_CodeOutputs": [
+      {
+        "question": "What is displayed on the page?\nfunction App() {\n  return <h1>Hello, React!</h1>;\n}",
+        "answer": "Hello, React! as a heading."
+      },
+      {
+        "question": "What does this render?\nfunction App() {\n  return <p>{2 + 3}</p>;\n}",
+        "answer": "5 inside a paragraph."
+      },
+      {
+        "question": "What does this display?\nfunction App() {\n  const name = \"PLM\";\n  return <p>Hello, {name}</p>;\n}",
+        "answer": "Hello, PLM"
+      },
+      {
+        "question": "How many list items will display?\nfunction App() {\n  return (\n    <ul>\n      <li>Item 1</li>\n      <li>Item 2</li>\n    </ul>\n  );\n}",
+        "answer": "2"
+      },
+      {
+        "question": "What is displayed?\nfunction App() {\n  return <button>Click Me</button>;\n}",
+        "answer": "A button labeled Click Me"
+      },
+      {
+        "question": "What is rendered?\nfunction App() {\n  const isLoggedIn = true;\n  return <p>{isLoggedIn ? \"Welcome\" : \"Please log in\"}</p>;\n}",
+        "answer": "Welcome"
+      },
+      {
+        "question": "What is shown?\nfunction App() {\n  return <h2>{10 > 5 ? \"Yes\" : \"No\"}</h2>;\n}",
+        "answer": "Yes"
+      },
+      {
+        "question": "What will this render?\nfunction App() {\n  return <img src=\"logo.png\" alt=\"Logo\" />;\n}",
+        "answer": "An image with alt text Logo"
+      },
+      {
+        "question": "What text will display?\nfunction App() {\n  return (\n    <>\n      <h1>Main</h1>\n      <p>Content</p>\n    </>\n  );\n}",
+        "answer": "Main\nContent"
+      },
+      {
+        "question": "What is displayed?\nfunction Welcome() {\n  return <p>Hi!</p>;\n}\nfunction App() {\n  return <Welcome />;\n}",
+        "answer": "Hi!"
+      }
+    ],
+    "Laravel": [
+      {
+        "question": "What command creates a new Laravel project?",
+        "choices": [
+          "composer create-project laravel/laravel project-name",
+          "laravel new project-name",
+          "php artisan make:project project-name",
+          "Both a and b"
+        ],
+        "answer": "Both a and b"
+      },
+      {
+        "question": "Which file contains Laravel environment configuration?",
+        "choices": [".env", "config.php", "settings.json", ".config"],
+        "answer": ".env"
+      },
+      {
+        "question": "Which command starts the Laravel development server?",
+        "choices": ["php artisan serve", "composer serve", "npm start", "laravel run"],
+        "answer": "php artisan serve"
+      },
+      {
+        "question": "Where are Laravel route definitions stored?",
+        "choices": ["routes/web.php", "app/routes.php", "config/routes.php", "public/routes.php"],
+        "answer": "routes/web.php"
+      },
+      {
+        "question": "What is Eloquent in Laravel?",
+        "choices": [
+          "ORM for database management",
+          "Laravel's logging library",
+          "A routing system",
+          "Package installer"
+        ],
+        "answer": "ORM for database management"
+      },
+      {
+        "question": "Which command creates a new controller in Laravel?",
+        "choices": [
+          "php artisan make:controller ControllerName",
+          "composer make:controller ControllerName",
+          "php artisan controller:create ControllerName",
+          "laravel create controller ControllerName"
+        ],
+        "answer": "php artisan make:controller ControllerName"
+      },
+      {
+        "question": "Which function is used to return a view?",
+        "choices": ["return view('viewName')", "echo view('viewName')", "redirect(viewName)", "returnPage(viewName)"],
+        "answer": "return view('viewName')"
+      },
+      {
+        "question": "What is middleware in Laravel?",
+        "choices": [
+          "A filter for HTTP requests",
+          "A database query",
+          "A view template",
+          "A migration file"
+        ],
+        "answer": "A filter for HTTP requests"
+      },
+      {
+        "question": "Which artisan command runs all pending migrations?",
+        "choices": [
+          "php artisan migrate",
+          "php artisan up",
+          "php artisan seed",
+          "php artisan rollback"
+        ],
+        "answer": "php artisan migrate"
+      },
+      {
+        "question": "Where are Laravel blade templates stored?",
+        "choices": [
+          "resources/views/",
+          "public/views/",
+          "app/templates/",
+          "resources/blades/"
+        ],
+        "answer": "resources/views/"
+      },
+      {
+        "question": "Which syntax is used to print a variable in Blade?",
+        "choices": ["{{ $variable }}", "{{{ $variable }}}", "{{= $variable }}", "{{ $variable; }}"],
+        "answer": "{{ $variable }}"
+      },
+      {
+        "question": "Which command creates a new model?",
+        "choices": [
+          "php artisan make:model ModelName",
+          "composer make:model ModelName",
+          "php artisan new:model ModelName",
+          "laravel model:create ModelName"
+        ],
+        "answer": "php artisan make:model ModelName"
+      },
+      {
+        "question": "What database configuration file does Laravel use?",
+        "choices": ["config/database.php", "app/database.php", "settings/database.json", "env/database.php"],
+        "answer": "config/database.php"
+      },
+      {
+        "question": "Which helper function is used to redirect to a URL?",
+        "choices": ["redirect()", "go()", "to()", "path()"],
+        "answer": "redirect()"
+      },
+      {
+        "question": "What does CSRF stand for?",
+        "choices": [
+          "Cross-Site Request Forgery",
+          "Cross-Server Request File",
+          "Client-Side Rendered Form",
+          "None of the above"
+        ],
+        "answer": "Cross-Site Request Forgery"
+      },
+      {
+        "question": "How to include a Blade template inside another?",
+        "choices": ["@include('template')", "@use('template')", "@load('template')", "@attach('template')"],
+        "answer": "@include('template')"
+      },
+      {
+        "question": "What is the Laravel service container?",
+        "choices": [
+          "Dependency injection container",
+          "Database migration tool",
+          "Artisan command manager",
+          "CSS style compiler"
+        ],
+        "answer": "Dependency injection container"
+      },
+      {
+        "question": "How to create a database seeder?",
+        "choices": [
+          "php artisan make:seeder SeederName",
+          "php artisan seed:create SeederName",
+          "composer make:seeder SeederName",
+          "php artisan create:seed SeederName"
+        ],
+        "answer": "php artisan make:seeder SeederName"
+      },
+      {
+        "question": "Which command rolls back the latest database migration?",
+        "choices": [
+          "php artisan migrate:rollback",
+          "php artisan rollback",
+          "php artisan down",
+          "php artisan migrate:reset"
+        ],
+        "answer": "php artisan migrate:rollback"
+      },
+      {
+        "question": "What is Laravel Mix?",
+        "choices": [
+          "A wrapper for webpack asset compilation",
+          "A middleware component",
+          "A package manager",
+          "A mail service"
+        ],
+        "answer": "A wrapper for webpack asset compilation"
+      }
+    ],
+    "Laravel_CodeOutputs": [
+      {
+        "question": "What does this route return?\nRoute::get('/hello', function () {\n  return 'Hello, Laravel!';\n});",
+        "answer": "Hello, Laravel!"
+      },
+      {
+        "question": "What is displayed when accessing this controller method?\npublic function show() {\n  return 'Welcome!';\n}",
+        "answer": "Welcome!"
+      },
+      {
+        "question": "What is the output?\n$name = 'PLM';\necho \"Hello, $name\";",
+        "answer": "Hello, PLM"
+      },
+      {
+        "question": "What is displayed?\necho 5 + 3;",
+        "answer": "8"
+      },
+      {
+        "question": "What does this blade file render?\n<h1>{{ $title }}</h1>\nWhen $title = 'Dashboard'",
+        "answer": "<h1>Dashboard</h1>"
+      },
+      {
+        "question": "What does this return?\nRoute::get('/sum', function () {\n  return 2 + 2;\n});",
+        "answer": "4"
+      },
+      {
+        "question": "What is the result?\nif (5 > 3) {\n  echo 'Yes';\n} else {\n  echo 'No';\n}",
+        "answer": "Yes"
+      },
+      {
+        "question": "What is displayed?\n$arr = [10, 20, 30];\necho $arr[1];",
+        "answer": "20"
+      },
+      {
+        "question": "What is the value of $message?\n$message = 'Hello' . ' World!';",
+        "answer": "Hello World!"
+      },
+      {
+        "question": "What is returned?\nRoute::get('/user/{name}', function ($name) {\n  return \"Hello, $name\";\n});\nIf visited /user/John",
+        "answer": "Hello, John"
+      }
+    ]
+  },
+  "Database": {
+    "SQL": [
+       {
+        "question": "What command is used to retrieve data from a database?",
+        "choices": ["SELECT", "UPDATE", "DELETE", "INSERT"],
+        "answer": "SELECT"
+      },
+      {
+        "question": "Which keyword is used to sort the result-set in ascending or descending order?",
+        "choices": ["ORDER BY", "GROUP BY", "SORT", "ARRANGE"],
+        "answer": "ORDER BY"
+      },
+      {
+        "question": "What symbol is used for a wildcard character in SQL LIKE clauses?",
+        "choices": ["%", "*", "#", "$"],
+        "answer": "%"
+      },
+      {
+        "question": "Which command adds a new row to a table?",
+        "choices": ["INSERT INTO", "ADD RECORD", "APPEND", "NEW ROW"],
+        "answer": "INSERT INTO"
+      },
+      {
+        "question": "What SQL clause is used to filter records?",
+        "choices": ["WHERE", "HAVING", "FILTER BY", "CONDITION"],
+        "answer": "WHERE"
+      },
+      {
+        "question": "Which function returns the number of rows in a table?",
+        "choices": ["COUNT()", "LENGTH()", "SUM()", "TOTAL()"],
+        "answer": "COUNT()"
+      },
+      {
+        "question": "What is a primary key?",
+        "choices": [
+          "A unique identifier for a record",
+          "A foreign table reference",
+          "A duplicate value field",
+          "A text description"
+        ],
+        "answer": "A unique identifier for a record"
+      },
+      {
+        "question": "Which SQL statement is used to delete all rows in a table without removing the table itself?",
+        "choices": [
+          "DELETE FROM table_name",
+          "DROP TABLE table_name",
+          "REMOVE TABLE table_name",
+          "TRUNCATE TABLE table_name"
+        ],
+        "answer": "TRUNCATE TABLE table_name"
+      },
+      {
+        "question": "What keyword is used to remove duplicate records?",
+        "choices": ["DISTINCT", "UNIQUE", "DELETE DUPLICATES", "PRIMARY"],
+        "answer": "DISTINCT"
+      },
+      {
+        "question": "Which JOIN type returns records with matching values in both tables?",
+        "choices": ["INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "OUTER JOIN"],
+        "answer": "INNER JOIN"
+      },
+      {
+        "question": "How do you retrieve all columns from a table?",
+        "choices": [
+          "SELECT * FROM table_name",
+          "SHOW ALL FROM table_name",
+          "GET * FROM table_name",
+          "RETRIEVE ALL table_name"
+        ],
+        "answer": "SELECT * FROM table_name"
+      },
+      {
+        "question": "Which statement changes existing data in a table?",
+        "choices": ["UPDATE", "REPLACE", "CHANGE", "MODIFY"],
+        "answer": "UPDATE"
+      },
+      {
+        "question": "Which SQL keyword is used to define a foreign key?",
+        "choices": ["FOREIGN KEY", "EXTERNAL KEY", "OUTSIDE KEY", "LINK KEY"],
+        "answer": "FOREIGN KEY"
+      },
+      {
+        "question": "Which function returns the highest value in a column?",
+        "choices": ["MAX()", "TOP()", "UPPER()", "HIGH()"],
+        "answer": "MAX()"
+      },
+      {
+        "question": "Which SQL data type is best for storing long text?",
+        "choices": ["TEXT", "VARCHAR(50)", "STRING", "LONGCHAR"],
+        "answer": "TEXT"
+      },
+      {
+        "question": "Which command permanently removes a table structure and its data?",
+        "choices": ["DROP TABLE", "DELETE FROM", "CLEAR TABLE", "REMOVE"],
+        "answer": "DROP TABLE"
+      },
+      {
+        "question": "What is the default sort order for ORDER BY?",
+        "choices": ["Ascending", "Descending", "Random", "Unordered"],
+        "answer": "Ascending"
+      },
+      {
+        "question": "Which statement retrieves unique city names from a table named 'Customers'?",
+        "choices": [
+          "SELECT DISTINCT City FROM Customers",
+          "SELECT City FROM Customers",
+          "GET UNIQUE City FROM Customers",
+          "SELECT ONLY City FROM Customers"
+        ],
+        "answer": "SELECT DISTINCT City FROM Customers"
+      },
+      {
+        "question": "What is the function of the HAVING clause?",
+        "choices": [
+          "Filters groups based on condition",
+          "Orders result set",
+          "Creates table constraints",
+          "Adds new records"
+        ],
+        "answer": "Filters groups based on condition"
+      },
+      {
+        "question": "Which operator combines the result of two SELECT statements?",
+        "choices": ["UNION", "COMBINE", "JOIN", "MERGE"],
+        "answer": "UNION"
+      }
+    ],
+    "SQL_CodeOutputs": [
+      {
+        "question": "What is the result of this query?\nSELECT 2 + 3;",
+        "answer": "5"
+      },
+      {
+        "question": "What does this return?\nSELECT UPPER('plm');",
+        "answer": "PLM"
+      },
+      {
+        "question": "What result will this query produce?\nSELECT LENGTH('Hello');",
+        "answer": "5"
+      },
+      {
+        "question": "How many rows are returned?\nSELECT * FROM students;\n(Assume table has 3 rows)",
+        "answer": "3"
+      },
+      {
+        "question": "What does this return?\nSELECT NOW();",
+        "answer": "Current date and time (system-dependent)"
+      },
+      {
+        "question": "What is the result?\nSELECT 'A' || 'B';",
+        "answer": "AB (PostgreSQL/SQLite — use CONCAT in MySQL)"
+      },
+      {
+        "question": "What is the output?\nSELECT CONCAT('Hello', ' PLM');",
+        "answer": "Hello PLM"
+      },
+      {
+        "question": "What does this return?\nSELECT 10/2;",
+        "answer": "5"
+      },
+      {
+        "question": "What is the output?\nSELECT LOWER('DATABASE');",
+        "answer": "database"
+      },
+      {
+        "question": "What does this display?\nSELECT 3 * 3;",
+        "answer": "9"
+      }
+    ],
+    "NoSQL": [
+      {
+        "question": "What is a defining feature of NoSQL databases?",
+        "choices": ["Schema flexibility", "Requires strict table relations", "Relies on SQL joins", "Uses stored procedures"],
+        "answer": "Schema flexibility"
+      },
+      {
+        "question": "Which of the following is a NoSQL database?",
+        "choices": ["MongoDB", "MySQL", "Oracle", "SQL Server"],
+        "answer": "MongoDB"
+      },
+      {
+        "question": "Which data structure is commonly used by document-based NoSQL databases?",
+        "choices": ["JSON-like documents", "SQL Tables", "CSV files", "XML forms"],
+        "answer": "JSON-like documents"
+      },
+      {
+        "question": "What type of NoSQL database stores data in key-value pairs?",
+        "choices": ["Redis", "MySQL", "PostgreSQL", "Access"],
+        "answer": "Redis"
+      },
+      {
+        "question": "Which of the following best describes NoSQL?",
+        "choices": ["Non-relational database management system", "Purely transactional systems", "Only supports structured data", "Replaces relational systems entirely"],
+        "answer": "Non-relational database management system"
+      },
+      {
+        "question": "What command would typically insert a document in MongoDB?",
+        "choices": ["insertOne()", "addDocument()", "put()", "createRecord()"],
+        "answer": "insertOne()"
+      },
+      {
+        "question": "In a document-based NoSQL database, documents are organized within what?",
+        "choices": ["Collections", "Tables", "Spreadsheets", "Data files"],
+        "answer": "Collections"
+      },
+      {
+        "question": "Which of these is a key advantage of NoSQL?",
+        "choices": ["Horizontal scalability", "Requires strict schemas", "Uses only flat-file storage", "Incompatible with JSON"],
+        "answer": "Horizontal scalability"
+      },
+      {
+        "question": "Which consistency model is commonly associated with NoSQL systems?",
+        "choices": ["Eventual consistency", "Immediate consistency", "Strict transactional consistency", "ACID-only transactions"],
+        "answer": "Eventual consistency"
+      },
+      {
+        "question": "Which of the following is not a type of NoSQL database?",
+        "choices": ["Graph database", "Document database", "Relational database", "Key-value store"],
+        "answer": "Relational database"
+      },
+      {
+        "question": "Which query language is native to MongoDB?",
+        "choices": ["Mongo Query Language (MQL)", "Standard SQL", "Cypher", "GraphQL"],
+        "answer": "Mongo Query Language (MQL)"
+      },
+      {
+        "question": "Which data type is commonly stored in key-value NoSQL databases?",
+        "choices": ["String", "Blob", "Table Row", "View"],
+        "answer": "String"
+      },
+      {
+        "question": "Which use case is ideal for a document-oriented NoSQL database?",
+        "choices": ["E-commerce product catalogs", "Relational financial transactions", "Rigid employee payroll systems", "Strictly normalized data structures"],
+        "answer": "E-commerce product catalogs"
+      },
+      {
+        "question": "Which of the following is a NoSQL database designed for caching?",
+        "choices": ["Redis", "MariaDB", "OracleDB", "SQLite"],
+        "answer": "Redis"
+      },
+      {
+        "question": "Which statement is true for column-based NoSQL databases?",
+        "choices": ["They store data in columns rather than rows", "Only support key-value structures", "Cannot handle large volumes of data", "Require primary keys for all entries"],
+        "answer": "They store data in columns rather than rows"
+      },
+      {
+        "question": "Which of these applications commonly use NoSQL systems?",
+        "choices": ["Real-time analytics platforms", "Static report generation", "Textbook relational systems", "Legacy data warehouses"],
+        "answer": "Real-time analytics platforms"
+      },
+      {
+        "question": "Which protocol is often used by NoSQL databases for clustering?",
+        "choices": ["Gossip protocol", "FTP", "SMTP", "HTTP-only"],
+        "answer": "Gossip protocol"
+      },
+      {
+        "question": "Which NoSQL type excels at representing connected data (like social networks)?",
+        "choices": ["Graph database", "Document database", "Column store", "CSV store"],
+        "answer": "Graph database"
+      },
+      {
+        "question": "Which feature makes NoSQL popular for big data applications?",
+        "choices": ["Scalability and flexibility", "Fixed schema enforcement", "Strict normalization rules", "Relational dependency"],
+        "answer": "Scalability and flexibility"
+      },
+      {
+        "question": "Which of the following describes BASE in NoSQL?",
+        "choices": ["Basically Available, Soft state, Eventual consistency", "Binary Access Storage Engine", "Basic And Secure Encryption", "Backup And Snapshot Environment"],
+        "answer": "Basically Available, Soft state, Eventual consistency"
+      }
+    ],
+    "NoSQL_CodeOutputs": [
+      {
+        "question": "What value is stored at this key?\n{\n  \"name\": \"PLM\"\n}",
+        "answer": "PLM"
+      },
+      {
+        "question": "What is the value of age?\n{\n  \"student\": {\n    \"name\": \"John\",\n    \"age\": 20\n  }\n}",
+        "answer": "20"
+      },
+      {
+        "question": "What is the result when retrieving status?\n{\n  \"status\": \"Active\"\n}",
+        "answer": "Active"
+      },
+      {
+        "question": "What will this update do?\n{\n  \"profile\": {\n    \"name\": \"Maria\",\n    \"email\": \"maria@gmail.com\"\n  }\n}",
+        "answer": "Creates or replaces profile with the name and email fields."
+      },
+      {
+        "question": "What is returned when getting city?\n{\n  \"city\": \"Manila\"\n}",
+        "answer": "Manila"
+      },
+      {
+        "question": "What does this array contain?\n{\n  \"numbers\": [1, 2, 3, 4]\n}",
+        "answer": "[1, 2, 3, 4]"
+      },
+      {
+        "question": "What is the value of grade?\n{\n  \"grade\": 95\n}",
+        "answer": "95"
+      },
+      {
+        "question": "What is the value at user/email?\n{\n  \"user\": {\n    \"email\": \"user@gmail.com\"\n  }\n}",
+        "answer": "user@gmail.com"
+      },
+      {
+        "question": "What is the first item in tasks?\n{\n  \"tasks\": [\"Eat\", \"Study\", \"Code\"]\n}",
+        "answer": "Eat"
+      },
+      {
+        "question": "What will deleting phone from this record do?\n{\n  \"name\": \"Peter\",\n  \"phone\": \"09123456789\"\n}",
+        "answer": "Removes the phone field, leaving only name"
+      }
+    ],
+    "MongoDB": [
+      {
+        "question": "Which command is used to display all documents in a MongoDB collection?",
+        "choices": ["find()", "showAll()", "display()", "selectAll()"],
+        "answer": "find()"
+      },
+      {
+        "question": "Which MongoDB method adds a new document to a collection?",
+        "choices": ["insertOne()", "add()", "save()", "update()"],
+        "answer": "insertOne()"
+      },
+      {
+        "question": "Which of the following is a valid MongoDB data type?",
+        "choices": ["ObjectId", "Varchar", "NumberText", "DateTimeString"],
+        "answer": "ObjectId"
+      },
+      {
+        "question": "What is the name of the default database created in MongoDB?",
+        "choices": ["admin", "main", "defaultDB", "root"],
+        "answer": "admin"
+      },
+      {
+        "question": "In MongoDB, collections are similar to what in relational databases?",
+        "choices": ["Tables", "Views", "Triggers", "Indexes"],
+        "answer": "Tables"
+      },
+      {
+        "question": "Which operator is used in MongoDB queries to match a value greater than a specified value?",
+        "choices": ["$gt", "$gteq", "$above", "$greater"],
+        "answer": "$gt"
+      },
+      {
+        "question": "Which command lists all databases in MongoDB?",
+        "choices": ["show dbs", "list databases", "get databases", "db.show()"],
+        "answer": "show dbs"
+      },
+      {
+        "question": "What is the storage format used by MongoDB?",
+        "choices": ["BSON", "XML", "CSV", "SQL"],
+        "answer": "BSON"
+      },
+      {
+        "question": "Which MongoDB method updates a single document that matches a filter?",
+        "choices": ["updateOne()", "modify()", "updateDocument()", "edit()"],
+        "answer": "updateOne()"
+      },
+      {
+        "question": "What is the primary feature of MongoDB's sharding?",
+        "choices": ["Horizontal scaling", "Vertical scaling", "Compression of data", "Limiting query results"],
+        "answer": "Horizontal scaling"
+      },
+      {
+        "question": "Which function is used to delete a document in MongoDB?",
+        "choices": ["deleteOne()", "remove()", "drop()", "erase()"],
+        "answer": "deleteOne()"
+      },
+      {
+        "question": "Which MongoDB method is used to count documents matching a filter?",
+        "choices": ["countDocuments()", "total()", "sumDocs()", "count()"],
+        "answer": "countDocuments()"
+      },
+      {
+        "question": "How do you limit the number of documents returned by a query in MongoDB?",
+        "choices": ["limit()", "top()", "maxRows()", "stopAt()"],
+        "answer": "limit()"
+      },
+      {
+        "question": "Which aggregation stage groups documents by a specified identifier?",
+        "choices": ["$group", "$sort", "$join", "$select"],
+        "answer": "$group"
+      },
+      {
+        "question": "Which MongoDB method returns the first document that matches the query?",
+        "choices": ["findOne()", "findFirst()", "fetch()", "selectOne()"],
+        "answer": "findOne()"
+      },
+      {
+        "question": "Which of the following statements is true about MongoDB indexes?",
+        "choices": ["They improve query performance", "They slow down queries", "They are optional in MongoDB", "They only work on numeric fields"],
+        "answer": "They improve query performance"
+      },
+      {
+        "question": "What command drops a collection in MongoDB?",
+        "choices": ["drop()", "remove()", "deleteCollection()", "erase()"],
+        "answer": "drop()"
+      },
+      {
+        "question": "Which operator matches documents where the field value is within an array?",
+        "choices": ["$in", "$eq", "$between", "$contains"],
+        "answer": "$in"
+      },
+      {
+        "question": "Which MongoDB feature ensures data redundancy and high availability?",
+        "choices": ["Replica sets", "Caching", "Indexes", "Stored Procedures"],
+        "answer": "Replica sets"
+      },
+      {
+        "question": "Which MongoDB command switches to a specific database?",
+        "choices": ["use", "select", "connect", "changeDB"],
+        "answer": "use"
+      }
+    ],
+    "MongoDB_CodeOutputs": [
+      {
+        "question": "What will this command output?\ndb.students.countDocuments()",
+        "answer": "Number of documents in the students collection."
+      },
+      {
+        "question": "What is the result of this find query?\ndb.users.findOne({ name: 'John' })",
+        "answer": "The first document where name is John"
+      },
+      {
+        "question": "What does this query return?\ndb.products.find({ price: { $gt: 100 } })",
+        "answer": "All products with a price greater than 100"
+      },
+      {
+        "question": "What will this insertion do?\ndb.books.insertOne({ title: 'Mongo 101', pages: 120 })",
+        "answer": "Adds a new document with title and pages to books collection."
+      },
+      {
+        "question": "What does this update query do?\ndb.students.updateOne({ name: 'Maria' }, { $set: { grade: 90 } })",
+        "answer": "Updates Maria’s grade to 90"
+      },
+      {
+        "question": "What does this delete command do?\ndb.students.deleteOne({ name: 'Peter' })",
+        "answer": "Deletes one document where name is Peter"
+      },
+      {
+        "question": "What is returned by this projection query?\ndb.users.find({}, { name: 1, _id: 0 })",
+        "answer": "Only the name fields from all documents (without _id)"
+      },
+      {
+        "question": "What does this aggregation return?\ndb.orders.aggregate([{ $group: { _id: null, total: { $sum: '$amount' } } }])",
+        "answer": "Total sum of the amount field in orders collection."
+      },
+      {
+        "question": "What will this command output?\ndb.products.find({ category: 'Electronics' }).count()",
+        "answer": "Number of products under Electronics category."
+      },
+      {
+        "question": "What does this insertion add?\ndb.users.insertMany([{ name: 'Anna' }, { name: 'Ben' }])",
+        "answer": "Adds two new user documents with names Anna and Ben."
+      }
+    ]
+  }
+}

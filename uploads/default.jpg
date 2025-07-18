@@ -1,0 +1,5 @@
+<?php
+// This is a default placeholder image for user avatars.
+// You can replace this file with any image you want as the default profile picture.
+header('Content-Type: image/jpeg');
+readfile(__DIR__ . '/default-profile.jpg');
